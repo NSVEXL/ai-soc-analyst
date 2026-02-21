@@ -26,5 +26,6 @@ To run this tool locally, you will need:
 
 **1. Clone the repository:**
 ```bash
-git clone [https://github.com/YOUR_USERNAME/ai-soc-analyst.git](https://github.com/YOUR_USERNAME/ai-soc-analyst.git)
+git clone [https://github.com/NSVEXL/ai-soc-analyst.git](https://github.com/NSVEXL/ai-soc-analyst.git)
+
 cd ai-soc-analyst
