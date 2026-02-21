@@ -28,4 +28,4 @@ To run this tool locally, you will need:
 ```bash
 git clone [https://github.com/NSVEXL/ai-soc-analyst.git](https://github.com/NSVEXL/ai-soc-analyst.git)
 
-cd ai-soc-analyst
+python -m streamlit run c:/Users/EYOUR_USER/cyber/Include/Agent/app_soc.py
