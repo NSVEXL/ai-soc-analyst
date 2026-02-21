@@ -1,5 +1,6 @@
 import streamlit as st
 import os
+os.environ["OTEL_PYTHON_DISABLED_RESOURCE_DETECTORS"] = "sdk_provided"
 import requests
 from crewai import Agent, Task, Crew
 from langchain_google_genai import ChatGoogleGenerativeAI
@@ -75,4 +76,5 @@ if st.button("Start Investigation") and google_key and vt_key and ip_to_check:
 
 else:
     # Instructions for the user if inputs are missing
+
     st.info("Please enter your API keys and the target IP in the sidebar, then click 'Start Investigation'.")
